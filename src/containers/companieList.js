@@ -11,29 +11,34 @@ class CompaniesList extends Component{
     
 
 
-renderCompaniesList(companies){
-    console.log('Comapnies : -->', companies);
+    renderCompaniesList(companies){
+        console.log('Comanies : -->', companies);
 
-}
+        companies.map(items=>{
+            console.log('Items: ', items);
+            //console.log('Year: ', i);
+        }) ; 
+
+    }
 
 
-render(){
-        return(
-        <table className="table table-hover">
-            <thead>
-            <tr>
-                <th>City</th>
-                <th>Temperature (K)</th>
-                <th>Pressure (hPa)</th>
-                <th>Humidity (%)</th>
-            </tr>
-            </thead>
-            <tbody>
-            {this.props.companies.map(this.renderCompaniesList)}
-            </tbody>
-        </table>
-        );
-    }  
+    render(){
+            return(
+            <table className="table table-hover">
+                <thead>
+                <tr>
+                    <th>Brand</th>
+                    <th>sector</th>
+                    <th>Change In Brand Value</th>
+                    <th>Brand Value</th>
+                </tr>
+                </thead>
+                <tbody>
+                {this.props.companies.map(this.renderCompaniesList)}
+                </tbody>
+            </table>
+            );
+        }  
 }
 
 function  mapStateToProps({companies})  {
