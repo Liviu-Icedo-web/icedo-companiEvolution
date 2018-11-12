@@ -1,0 +1,602 @@
+[
+    {
+        "brand": "Coca-Cola",
+        "sector": "Beverages",
+        "changeInBrandValue": 0.01,
+        "brandValue": "69,637 $m"
+    },
+    {
+        "brand": "Microsoft",
+        "sector": "Technology",
+        "changeInBrandValue": -0.02,
+        "brandValue": "64,091 $m"
+    },
+    {
+        "brand": "IBM",
+        "sector": "Business Services",
+        "changeInBrandValue": -0.03,
+        "brandValue": "51,188 $m"
+    },
+    {
+        "brand": "GE",
+        "sector": "Diversified",
+        "changeInBrandValue": -0.03,
+        "brandValue": "41,311 $m"
+    },
+    {
+        "brand": "Intel",
+        "sector": "Technology",
+        "changeInBrandValue": -0.11,
+        "brandValue": "30,861 $m"
+    },
+    {
+        "brand": "Nokia",
+        "sector": "Technology",
+        "changeInBrandValue": -0.14,
+        "brandValue": "29,970 $m"
+    },
+    {
+        "brand": "Disney",
+        "sector": "Media",
+        "changeInBrandValue": -0.1,
+        "brandValue": "29,256 $m"
+    },
+    {
+        "brand": "McDonald's",
+        "sector": "Restaurants",
+        "changeInBrandValue": 0.04,
+        "brandValue": "26,375 $m"
+    },
+    {
+        "brand": "Marlboro",
+        "sector": "Tobacco",
+        "changeInBrandValue": 0.1,
+        "brandValue": "24,151 $m"
+    },
+    {
+        "brand": "Mercedes-Benz",
+        "sector": "Automotive",
+        "changeInBrandValue": -0.03,
+        "brandValue": "21,010 $m"
+    },
+    {
+        "brand": "Ford",
+        "sector": "Automotive",
+        "changeInBrandValue": -0.32,
+        "brandValue": "20,403 $m"
+    },
+    {
+        "brand": "Toyota",
+        "sector": "Automotive",
+        "changeInBrandValue": 0.05,
+        "brandValue": "19,448 $m"
+    },
+    {
+        "brand": "Citi",
+        "sector": "Financial Services",
+        "changeInBrandValue": -0.05,
+        "brandValue": "18,066 $m"
+    },
+    {
+        "brand": "HP",
+        "sector": "Technology",
+        "changeInBrandValue": -0.07,
+        "brandValue": "16,776 $m"
+    },
+    {
+        "brand": "American Express",
+        "sector": "Financial Services",
+        "changeInBrandValue": -0.04,
+        "brandValue": "16,287 $m"
+    },
+    {
+        "brand": "Cisco",
+        "sector": "Technology",
+        "changeInBrandValue": -0.06,
+        "brandValue": "16,222 $m"
+    },
+    {
+        "brand": "AT&T",
+        "sector": "Telecommunications",
+        "changeInBrandValue": -0.3,
+        "brandValue": "16,059 $m"
+    },
+    {
+        "brand": "Honda",
+        "sector": "Automotive",
+        "changeInBrandValue": 0.03,
+        "brandValue": "15,064 $m"
+    },
+    {
+        "brand": "Gillette",
+        "sector": "FMCG",
+        "changeInBrandValue": -0.02,
+        "brandValue": "14,959 $m"
+    },
+    {
+        "brand": "BMW",
+        "sector": "Automotive",
+        "changeInBrandValue": 0.04,
+        "brandValue": "14,425 $m"
+    },
+    {
+        "brand": "Sony",
+        "sector": "Electronics",
+        "changeInBrandValue": -0.07,
+        "brandValue": "13,899 $m"
+    },
+    {
+        "brand": "NESCAFÉ",
+        "sector": "Beverages",
+        "changeInBrandValue": -0.03,
+        "brandValue": "12,843 $m"
+    },
+    {
+        "brand": "Oracle",
+        "sector": "Technology",
+        "changeInBrandValue": -0.06,
+        "brandValue": "11,510 $m"
+    },
+    {
+        "brand": "Budweiser",
+        "sector": "Alcohol",
+        "changeInBrandValue": 0.05,
+        "brandValue": "11,349 $m"
+    },
+    {
+        "brand": "Merrill Lynch",
+        "sector": "Financial Services",
+        "changeInBrandValue": -0.25,
+        "brandValue": "11,230 $m"
+    },
+    {
+        "brand": "Morgan Stanley",
+        "sector": "Financial Services",
+        "changeInBrandValue": "NEW",
+        "brandValue": "11,205 $m"
+    },
+    {
+        "brand": "Compaq",
+        "sector": "Technology",
+        "changeInBrandValue": -0.21,
+        "brandValue": "9,803 $m"
+    },
+    {
+        "brand": "Pfizer",
+        "sector": "Pharmaceuticals",
+        "changeInBrandValue": 0.09,
+        "brandValue": "9,770 $m"
+    },
+    {
+        "brand": "J.P. Morgan",
+        "sector": "Financial Services",
+        "changeInBrandValue": "NEW",
+        "brandValue": "9,693 $m"
+    },
+    {
+        "brand": "Kodak",
+        "sector": "Electronics",
+        "changeInBrandValue": -0.1,
+        "brandValue": "9,671 $m"
+    },
+    {
+        "brand": "Dell",
+        "sector": "Technology",
+        "changeInBrandValue": 0.12,
+        "brandValue": "9,237 $m"
+    },
+    {
+        "brand": "Nintendo",
+        "sector": "Electronics",
+        "changeInBrandValue": -0.03,
+        "brandValue": "9,219 $m"
+    },
+    {
+        "brand": "Merck & Co., Inc.",
+        "sector": "Pharmaceuticals",
+        "changeInBrandValue": -0.06,
+        "brandValue": "9,138 $m"
+    },
+    {
+        "brand": "Samsung",
+        "sector": "Technology",
+        "changeInBrandValue": 0.3,
+        "brandValue": "8,310 $m"
+    },
+    {
+        "brand": "Nike",
+        "sector": "Sporting Goods",
+        "changeInBrandValue": 0.02,
+        "brandValue": "7,724 $m"
+    },
+    {
+        "brand": "Gap",
+        "sector": "Apparel",
+        "changeInBrandValue": -0.15,
+        "brandValue": "7,406 $m"
+    },
+    {
+        "brand": "Heinz",
+        "sector": "FMCG",
+        "changeInBrandValue": 0.04,
+        "brandValue": "7,347 $m"
+    },
+    {
+        "brand": "Volkswagen",
+        "sector": "Automotive",
+        "changeInBrandValue": -0.02,
+        "brandValue": "7,209 $m"
+    },
+    {
+        "brand": "Goldman Sachs",
+        "sector": "Financial Services",
+        "changeInBrandValue": -0.09,
+        "brandValue": "7,194 $m"
+    },
+    {
+        "brand": "Kellogg's",
+        "sector": "FMCG",
+        "changeInBrandValue": 0.03,
+        "brandValue": "7,191 $m"
+    },
+    {
+        "brand": "Louis Vuitton",
+        "sector": "Luxury",
+        "changeInBrandValue": 0,
+        "brandValue": "7,054 $m"
+    },
+    {
+        "brand": "SAP",
+        "sector": "Technology",
+        "changeInBrandValue": 0.07,
+        "brandValue": "6,775 $m"
+    },
+    {
+        "brand": "Canon",
+        "sector": "Electronics",
+        "changeInBrandValue": 0.02,
+        "brandValue": "6,721 $m"
+    },
+    {
+        "brand": "IKEA",
+        "sector": "Retail",
+        "changeInBrandValue": 0.09,
+        "brandValue": "6,545 $m"
+    },
+    {
+        "brand": "Pepsi",
+        "sector": "Beverages",
+        "changeInBrandValue": 0.03,
+        "brandValue": "6,394 $m"
+    },
+    {
+        "brand": "Harley-Davidson",
+        "sector": "Automotive",
+        "changeInBrandValue": 0.13,
+        "brandValue": "6,266 $m"
+    },
+    {
+        "brand": "MTV",
+        "sector": "Media",
+        "changeInBrandValue": -0.08,
+        "brandValue": "6,078 $m"
+    },
+    {
+        "brand": "Pizza Hut",
+        "sector": "Restaurants",
+        "changeInBrandValue": 0.01,
+        "brandValue": "6,046 $m"
+    },
+    {
+        "brand": "KFC",
+        "sector": "Restaurants",
+        "changeInBrandValue": 0.02,
+        "brandValue": "5,346 $m"
+    },
+    {
+        "brand": "Apple",
+        "sector": "Technology",
+        "changeInBrandValue": -0.03,
+        "brandValue": "5,316 $m"
+    },
+    {
+        "brand": "Xerox",
+        "sector": "Business Services",
+        "changeInBrandValue": -0.12,
+        "brandValue": "5,308 $m"
+    },
+    {
+        "brand": "Gucci",
+        "sector": "Luxury",
+        "changeInBrandValue": -0.01,
+        "brandValue": "5,304 $m"
+    },
+    {
+        "brand": "Accenture",
+        "sector": "Business Services",
+        "changeInBrandValue": "NEW",
+        "brandValue": "5,182 $m"
+    },
+    {
+        "brand": "L'Oréal",
+        "sector": "FMCG",
+        "changeInBrandValue": "NEW",
+        "brandValue": "5,079 $m"
+    },
+    {
+        "brand": "Kleenex",
+        "sector": "FMCG",
+        "changeInBrandValue": -0.01,
+        "brandValue": "5,039 $m"
+    },
+    {
+        "brand": "Sun Microsystems",
+        "sector": "Business Services",
+        "changeInBrandValue": -0.07,
+        "brandValue": "4,773 $m"
+    },
+    {
+        "brand": "Wrigley",
+        "sector": "FMCG",
+        "changeInBrandValue": 0.05,
+        "brandValue": "4,747 $m"
+    },
+    {
+        "brand": "Reuters",
+        "sector": "Media",
+        "changeInBrandValue": -0.12,
+        "brandValue": "4,611 $m"
+    },
+    {
+        "brand": "Colgate",
+        "sector": "FMCG",
+        "changeInBrandValue": 0.01,
+        "brandValue": "4,602 $m"
+    },
+    {
+        "brand": "Philips",
+        "sector": "Electronics",
+        "changeInBrandValue": -0.07,
+        "brandValue": "4,561 $m"
+    },
+    {
+        "brand": "Nestlé",
+        "sector": "FMCG",
+        "changeInBrandValue": "NEW",
+        "brandValue": "4,430 $m"
+    },
+    {
+        "brand": "Avon",
+        "sector": "FMCG",
+        "changeInBrandValue": 0.01,
+        "brandValue": "4,399 $m"
+    },
+    {
+        "brand": "AOL",
+        "sector": "Media",
+        "changeInBrandValue": -0.04,
+        "brandValue": "4,326 $m"
+    },
+    {
+        "brand": "Chanel",
+        "sector": "Luxury",
+        "changeInBrandValue": 0,
+        "brandValue": "4,272 $m"
+    },
+    {
+        "brand": "Kraft",
+        "sector": "FMCG",
+        "changeInBrandValue": 0.01,
+        "brandValue": "4,079 $m"
+    },
+    {
+        "brand": "Danone",
+        "sector": "FMCG",
+        "changeInBrandValue": "NEW",
+        "brandValue": "4,054 $m"
+    },
+    {
+        "brand": "Yahoo!",
+        "sector": "Media",
+        "changeInBrandValue": -0.12,
+        "brandValue": "3,855 $m"
+    },
+    {
+        "brand": "adidas",
+        "sector": "Sporting Goods",
+        "changeInBrandValue": 0.01,
+        "brandValue": "3,690 $m"
+    },
+    {
+        "brand": "Rolex",
+        "sector": "Luxury",
+        "changeInBrandValue": 0,
+        "brandValue": "3,686 $m"
+    },
+    {
+        "brand": "Time",
+        "sector": "Media",
+        "changeInBrandValue": -0.01,
+        "brandValue": "3,682 $m"
+    },
+    {
+        "brand": "Ericsson",
+        "sector": "Electronics",
+        "changeInBrandValue": -0.49,
+        "brandValue": "3,589 $m"
+    },
+    {
+        "brand": "Tiffany & Co.",
+        "sector": "Luxury",
+        "changeInBrandValue": 0,
+        "brandValue": "3,482 $m"
+    },
+    {
+        "brand": "Levi's",
+        "sector": "Apparel",
+        "changeInBrandValue": -0.08,
+        "brandValue": "3,454 $m"
+    },
+    {
+        "brand": "Motorola",
+        "sector": "Electronics",
+        "changeInBrandValue": -0.09,
+        "brandValue": "3,416 $m"
+    },
+    {
+        "brand": "Duracell",
+        "sector": "FMCG",
+        "changeInBrandValue": -0.18,
+        "brandValue": "3,409 $m"
+    },
+    {
+        "brand": "BP",
+        "sector": "Energy",
+        "changeInBrandValue": 0.04,
+        "brandValue": "3,390 $m"
+    },
+    {
+        "brand": "Hertz",
+        "sector": "Automotive",
+        "changeInBrandValue": -0.07,
+        "brandValue": "3,362 $m"
+    },
+    {
+        "brand": "Bacardi",
+        "sector": "Alcohol",
+        "changeInBrandValue": 0.04,
+        "brandValue": "3,341 $m"
+    },
+    {
+        "brand": "Caterpillar",
+        "sector": "Diversified",
+        "changeInBrandValue": "NEW",
+        "brandValue": "3,218 $m"
+    },
+    {
+        "brand": "Amazon",
+        "sector": "Retail",
+        "changeInBrandValue": 0.01,
+        "brandValue": "3,175 $m"
+    },
+    {
+        "brand": "Panasonic",
+        "sector": "Electronics",
+        "changeInBrandValue": -0.1,
+        "brandValue": "3,141 $m"
+    },
+    {
+        "brand": "Boeing",
+        "sector": "Diversified",
+        "changeInBrandValue": -0.27,
+        "brandValue": "2,973 $m"
+    },
+    {
+        "brand": "Shell",
+        "sector": "Energy",
+        "changeInBrandValue": -0.01,
+        "brandValue": "2,810 $m"
+    },
+    {
+        "brand": "Smirnoff",
+        "sector": "Alcohol",
+        "changeInBrandValue": 0.05,
+        "brandValue": "2,723 $m"
+    },
+    {
+        "brand": "Johnson & Johnson",
+        "sector": "FMCG",
+        "changeInBrandValue": "NEW",
+        "brandValue": "2,509 $m"
+    },
+    {
+        "brand": "Prada",
+        "sector": "Luxury",
+        "changeInBrandValue": "NEW",
+        "brandValue": "2,489 $m"
+    },
+    {
+        "brand": "Moët & Chandon",
+        "sector": "Alcohol",
+        "changeInBrandValue": -0.01,
+        "brandValue": "2,445 $m"
+    },
+    {
+        "brand": "Heineken",
+        "sector": "Alcohol",
+        "changeInBrandValue": 0.06,
+        "brandValue": "2,396 $m"
+    },
+    {
+        "brand": "Mobil",
+        "sector": "Energy",
+        "changeInBrandValue": -0.02,
+        "brandValue": "2,358 $m"
+    },
+    {
+        "brand": "Burger King",
+        "sector": "Restaurants",
+        "changeInBrandValue": -0.11,
+        "brandValue": "2,163 $m"
+    },
+    {
+        "brand": "Nivea",
+        "sector": "FMCG",
+        "changeInBrandValue": 0.16,
+        "brandValue": "2,059 $m"
+    },
+    {
+        "brand": "Wall Street Journal",
+        "sector": "Media",
+        "changeInBrandValue": -0.1,
+        "brandValue": "1,961 $m"
+    },
+    {
+        "brand": "Starbucks",
+        "sector": "Restaurants",
+        "changeInBrandValue": 0.12,
+        "brandValue": "1,961 $m"
+    },
+    {
+        "brand": "Barbie",
+        "sector": "Toys & Games",
+        "changeInBrandValue": -0.05,
+        "brandValue": "1,937 $m"
+    },
+    {
+        "brand": "Ralph Lauren",
+        "sector": "Apparel",
+        "changeInBrandValue": 0.01,
+        "brandValue": "1,928 $m"
+    },
+    {
+        "brand": "FedEx",
+        "sector": "Logistics",
+        "changeInBrandValue": 0.02,
+        "brandValue": "1,919 $m"
+    },
+    {
+        "brand": "Johnnie Walker",
+        "sector": "Alcohol",
+        "changeInBrandValue": 0,
+        "brandValue": "1,654 $m"
+    },
+    {
+        "brand": "Jack Daniel's",
+        "sector": "Alcohol",
+        "changeInBrandValue": 0,
+        "brandValue": "1,580 $m"
+    },
+    {
+        "brand": "3M",
+        "sector": "Diversified",
+        "changeInBrandValue": "NEW",
+        "brandValue": "1,579 $m"
+    },
+    {
+        "brand": "Armani",
+        "sector": "Luxury",
+        "changeInBrandValue": 0.01,
+        "brandValue": "1,509 $m"
+    }
+]
