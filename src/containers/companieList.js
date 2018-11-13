@@ -9,18 +9,26 @@ class CompaniesList extends Component{
       this.props.fetchCompany();
     }
     
-
-
     renderCompaniesList(companies){
-        console.log('Comanies : -->', companies);
-
-        companies.map(items=>{
-            console.log('Items: ', items);
-            //console.log('Year: ', i);
-        }) ; 
+       
+        return (            
+            Object.keys(companies).map(i =>{
+                console.log(i);
+                   return companies[i].map((items,i)=>{
+                        console.log('Items: ', items.brand+i); 
+                            return(
+                                    <tr key={items.brand+i} className={items.brand+i}>
+                                        <td>{items.brand}</td>
+                                        <td>{items.sector}</td>
+                                        <td>{items.changeInBrandValue}</td>
+                                        <td>{items.brandValue}</td>
+                                    </tr>
+                                )
+                            })
+                    })
+        );
 
     }
-
 
     render(){
             return(
@@ -34,6 +42,7 @@ class CompaniesList extends Component{
                 </tr>
                 </thead>
                 <tbody>
+                {console.log(this.props.companies)}    
                 {this.props.companies.map(this.renderCompaniesList)}
                 </tbody>
             </table>
