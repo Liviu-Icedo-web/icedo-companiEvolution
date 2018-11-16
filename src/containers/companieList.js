@@ -9,26 +9,38 @@ class CompaniesList extends Component{
       this.props.fetchCompany();
     }
     
-    renderCompaniesList(companies){
-       
-        return (            
+
+   /* renderCompaniesList(companies){
+       return (            
             Object.keys(companies).map(i =>{
-                console.log(i);
-                   return companies[i].map((items,i)=>{
-                        console.log('Items: ', items.brand+i); 
-                            return(
-                                    <tr key={items.brand+i} className={items.brand+i}>
-                                        <td>{items.brand}</td>
-                                        <td>{items.sector}</td>
-                                        <td>{items.changeInBrandValue}</td>
-                                        <td>{items.brandValue}</td>
-                                    </tr>
-                                )
-                            })
-                    })
+                console.log('Companies ',companies[i]);
+               console.log('Render By Year',i);
+                   return ('BA',companies[i].map(items =>{
+                      return (renderCompaniesByYear(items))
+                   })//FIN companies[i].map
+                    
+                )  
+                    
+                })
         );
 
-    }
+    }*/
+
+    renderCompaniesList(companies){
+            const  years =  Object.keys(companies).map(i => <tr key={i}><td>{i}</td></tr>)
+            //const dataCompanies = Object.keys(companies).map(i =>{companies[i].map(items=>{return renderCompaniesByYear(items)})})
+            const dataCompanies = Object.keys(companies).map(i =>{
+                                                                    return (renderCompaniesByYear(companies[i]))
+                                                                })
+
+            //const dataCompanies = companies[years].map(items => renderCompaniesByYear(items))
+
+        return ( console.log('Years: ',dataCompanies),
+                <tbody key={'1'}>{years}{dataCompanies}</tbody>
+             
+         )
+     }
+
 
     render(){
             return(
@@ -41,10 +53,11 @@ class CompaniesList extends Component{
                     <th>Brand Value</th>
                 </tr>
                 </thead>
-                <tbody>
-                {console.log(this.props.companies)}    
+               
+                {console.log('Render Log',this)} 
+                {/*this.props.companies.map(i =>returnYear(i))*/}   
                 {this.props.companies.map(this.renderCompaniesList)}
-                </tbody>
+                
             </table>
             );
         }  
@@ -52,6 +65,38 @@ class CompaniesList extends Component{
 
 function  mapStateToProps({companies})  {
     return {companies};
+}
+
+function returnYear(year){    
+        Object.keys(year).map(i =>{
+            return (
+                <tr key={i}>
+                    <td>{i}</td>
+                </tr>
+            ),
+            console.log('returnYear',i)       
+        })
+       
+}
+
+
+function renderCompaniesByYear(year){           
+                return (
+                    console.log('CompaniesByYear: ',year),
+                    year.map(year =>{
+                        return(
+                             <tr key={year.brand} className={year.brand}>
+                        <td>{year.brand}</td>
+                        <td>{year.sector}</td>
+                        <td>{year.changeInBrandValue}</td>
+                        <td>{year.brandValue}</td>
+                    </tr>
+                        )
+                       
+                    })
+                        
+                    )               
+   
 }
 
 export default connect(mapStateToProps,{fetchCompany})(CompaniesList);
