@@ -36,7 +36,7 @@ class CompaniesList extends Component{
             //const dataCompanies = companies[years].map(items => renderCompaniesByYear(items))
 
         return ( console.log('Years: ',dataCompanies),
-                <tbody key={'1'}>{years}{dataCompanies}</tbody>
+                <tbody key={'dataCompanies'}>{years}{dataCompanies}</tbody>
              
          )
      }
