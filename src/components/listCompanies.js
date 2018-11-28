@@ -10,6 +10,7 @@ export default class Listing extends Component{
         const {year,arrCompanie} = this.props;
 
         return (
+               
         arrCompanie.map(i =>(
              <tr key={i.brandValue+year} className={i.brandValue+year}>
                         <td>{i.brand}</td>

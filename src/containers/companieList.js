@@ -32,17 +32,18 @@ class CompaniesList extends Component{
             //const  years =  Object.keys(companies).map(i => <tr key={i}><td>{i}</td></tr>)
             //const dataCompanies = Object.keys(companies).map(i =>{companies[i].map(items=>{return renderCompaniesByYear(items)})})
             const dataCompanies = Object.keys(companies).map(i =>(
-             
-                <ListCompanie  year = {i} arrCompanie={companies[i]} />    
-             
+                <React.Fragment>
+                <tr key={i}><td>{i}</td></tr>
+                <ListCompanie  year = {i} key={i} arrCompanie={companies[i]} /> 
+                </React.Fragment>
                 
-                //return (renderCompaniesByYear(companies[i]))
             ))
 
             //const dataCompanies = companies[years].map(items => renderCompaniesByYear(items))
 
         return ( console.log('Years: ',dataCompanies),
-               <tbody>{dataCompanies}</tbody>
+       
+                dataCompanies
              
          )
      }
@@ -59,7 +60,7 @@ class CompaniesList extends Component{
                     <th>Brand Value</th>
                 </tr>
                 </thead>
-                  {this.props.companies.map(this.renderCompaniesList)}
+                <tbody>{this.props.companies.map(this.renderCompaniesList)}</tbody>
             </table>
             )
         }  
